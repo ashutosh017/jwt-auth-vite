@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .input-style {
+        @apply bg-transparent text-white outline-none border-2 rounded-md border-zinc-800 w-80 sm:w-full px-2 py-1
+    }
+    .input-style-button {
+        @apply input-style bg-blue-700 hover:bg-blue-600
+    }
+}
